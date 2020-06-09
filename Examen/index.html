@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<script src="validacion.js"></script>
+</head>
+<body>
+	<h1>Formulario</h1>
+	<form name ="form" action="ServletExamen" method="GET" onsubmit="return validar();">
+		<label for="cui">CUI: </label><input type = "number" id = "cui" name = "cui" ><br>
+		<label for="contrasenia">Contraseña: </label><input type = "password" id = "contrasenia" name = "contrasenia"><br>
+		<input type = "submit" id = "enviar" ><br>
+	</form>
+</body>
+</html>
